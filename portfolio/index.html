@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.jpeg" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p class="tag">Software Developer</p>
+            <h1>Hi! I'm <span>Robert</span> Brown Jr.</h1> 
+
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="conatiner">
+      <div class="row">
+            <div class="about-col-1">
+               <img src="img2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a software developer, I craft elegant solutions to complex problems, 
+                utilizing a diverse skill set in languages such as Python, JavaScript, 
+                and Java. Experienced in full-stack development, my work spans web applications,
+                mobile apps, and backend systems. Passionate about creating efficient, user-centric
+                software that drives positive change. 
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Developer</span><br>Developing Softwares</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Application Development</span><br>Building android/ios application</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 current</span> <br>Project lead in a well known company</li>
+                        <li><span>2022-2023</span> <br>Worked as managing director at WERTY co-limited</li>
+                        <li><span>2020-2021</span> <br>As a software developer at Random technologies</li>
+                        <li><span>2019-2020</span> <br>Intership at CODSOFT technologies</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span> <br>Software development training at MJIT Madhras</li>
+                        <li><span>2018</span> <br>MTech from MIT Bangalore</li>
+                        <li><span>2016</span> <br>Btech from Malla Reddy College of Engineering Hyderabad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="continer">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Software Development</h2>
+                <p>The software developer offers custom software development, maintenance, and support services, ensuring tailored solutions and reliable assistance for clients' diverse needs.</p>
+            </div>
+            <div>
+                <h2>Web Development</h2>
+                <p>The web developer offers website design, development, and maintenance services, specializing in creating user-friendly, responsive, and visually appealing digital platforms for businesses and individuals.</p>
+            </div>
+            <div>
+                <h2>App Development</h2>
+                <p>The app developer offers comprehensive services including design, development, testing, maintenance, and support, ensuring high-quality and user-friendly applications tailored to client needs.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img11.jpg">
+                <div class="layer"><h3>Software version 2.0</h3><p>This is an advancement of a particular software that enhances the work activity of the system</p></div>
+            </div>
+            <div class="work">
+                <img src="img12.jpg">
+                <div class="layer"><h3>Scrum process application</h3><p>This is a process in software development</p></div>
+            </div>
+            <div class="work">
+                <img src="img13.jpg">
+                <div class="layer"><h3>Social Media App</h3><p>The app connects you to the talented people around the globe</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ironman3000@gamil.com</p>
+                <p><i class="fa-solid fa-phone"></i>9876543219</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn  btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="'Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname),classList.add("active-tab");
+    }
+
+</script>
+    
+</body>
+</html>
