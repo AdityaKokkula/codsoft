@@ -1,0 +1,104 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e3e3;
+  }
+  
+  header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #010000;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image:url(vintage.webp);
+    background-size: cover;
+    background-position: center;
+    color: #feffff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .car-options {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .car {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .car img {
+    width: 50%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .why-choose-us {
+    background-color: #f44336;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .why-choose-us .reason {
+    margin-bottom: 30px;
+  }
+  
+  .why-choose-us .reason i {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
