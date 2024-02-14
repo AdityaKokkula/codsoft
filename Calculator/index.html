@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="form">
+        <input id="field" type="text" name="display" readonly>
+        <div class="keys">
+            <button onclick="clearDisplay()" class="operator">C</button>
+            <button onclick="display.value=display.value.toString().slice(0,-1)" class="operator"><span class="material-symbols-outlined">backspace</span></button>
+            <button onclick="append('%')" class="operator"><span class="material-symbols-outlined">percent</span></button>
+            <button onclick="append('/')" class="operator">/</button>
+            <button onclick="append('7')">7</button>
+            <button onclick="append('8')">8</button>
+            <button onclick="append('9')">9</button>
+            <button onclick="append('*')" class="operator"><span class="material-symbols-outlined">close</span></button>
+            <button onclick="append('4')">4</button>
+            <button onclick="append('5')">5</button>
+            <button onclick="append('6')">6</button>
+            <button onclick="append('-')" class="operator"><span class="material-symbols-outlined">remove</span></button>
+            <button onclick="append('1')">1</button>
+            <button onclick="append('2')">2</button>
+            <button onclick="append('3')">3</button>
+            <button onclick="append('+')" class="operator">+</button>
+            <button onclick="append('00')">00</button>
+            <button onclick="append('0')">0</button>
+            <button onclick="append('.')">.</button>
+            <button onclick="calculate()" id="equal" class="operator"><span class="material-symbols-outlined">equal</span></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
