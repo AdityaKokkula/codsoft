@@ -15,7 +15,7 @@ Project Details
 1. Personal Portfolio
 - Description: A portfolio website that includes sections like About Me, Skills, Projects, and Contact.
 - Technologies Used: HTML, CSS, JavaScript, Bootstrap.
-- Live Demo:
+- Live Demo:https://github.com/AdityaKokkula/codsoft/tree/main/portfolio
 
 2. Landing Page
 - Description: A landing page designed for a hypothetical product or service, featuring modern design practices.
