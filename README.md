@@ -20,7 +20,7 @@ Project Details
 2. Landing Page
 - Description: A landing page designed for a hypothetical product or service, featuring modern design practices.
 - Technologies Used: HTML, CSS, JavaScript.
-- Live Demo:
+- Live Demo:https://github.com/AdityaKokkula/codsoft/tree/main/Landing%20page
 
 3. Calculator
 - Description: A basic calculator application capable of performing addition, subtraction, multiplication, and division.
