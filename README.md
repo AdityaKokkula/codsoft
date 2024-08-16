@@ -15,14 +15,14 @@ Project Details
 1. Personal Portfolio
 - Description: A portfolio website that includes sections like About Me, Skills, Projects, and Contact.
 - Technologies Used: HTML, CSS, JavaScript, Bootstrap.
-- Live Demo: [Link to Portfolio](#)
+- Live Demo:
 
 2. Landing Page
 - Description: A landing page designed for a hypothetical product or service, featuring modern design practices.
 - Technologies Used: HTML, CSS, JavaScript.
-- Live Demo: [Link to Landing Page](#)
+- Live Demo:
 
 3. Calculator
 - Description: A basic calculator application capable of performing addition, subtraction, multiplication, and division.
 - Technologies Used: HTML, CSS, JavaScript.
-- Live Demo: [Link to Calculator](#)
+- Live Demo:(https://github.com/AdityaKokkula/codsoft/tree/main/Calculator)
